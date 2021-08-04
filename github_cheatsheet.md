@@ -10,5 +10,5 @@ Note to myself:
 
 
 ## Update my fork with original
-* `git fetch upstream`: Fetch the branches and their respective commits from the upstream repository. Commits to BRANCHNAME will be stored in the local branch `upstream/BRANCHNAME`.
+* `git fetch upstream`: Fetch the branches and their respective commits from the upstream repository. Commits to `BRANCHNAME` will be stored in the local branch `upstream/BRANCHNAME`.
 * `git merge upstream/main`: Merge the changes from the upstream default branch - in this case, upstream/main - into your local default branch. This brings your fork's default branch into sync with the upstream repository, without losing your local changes.
