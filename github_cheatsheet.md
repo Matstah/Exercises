@@ -9,6 +9,10 @@ Note to myself:
 * `git diff`: identify the differences between the states repositories or files.
 
 
-## Update my fork with original
+## Fork stuff
+### Fix bug or add feature in other repo
+* Check how they like their contributions.
+* Create a fork, go to dev branch, fix bug, do pull request to dev branch.
+### Update my fork with original
 * `git fetch upstream`: Fetch the branches and their respective commits from the upstream repository. Commits to `BRANCHNAME` will be stored in the local branch `upstream/BRANCHNAME`.
 * `git merge upstream/main`: Merge the changes from the upstream default branch - in this case, upstream/main - into your local default branch. This brings your fork's default branch into sync with the upstream repository, without losing your local changes.
